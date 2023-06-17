@@ -52,3 +52,15 @@ print(data.split())
 print(data.upper())
 print(data.lower())
 # print(data.split(e))
+
+# 2 methods
+# .format() method
+# f-strings (formatted string literals)
+print('This is a string {}'.format('INSERTED'))
+
+print('The {2} {1} {0}'.format('fox','brown','quick'))
+
+print('The {b} {f} {q}'.format(f='fox',b='brown',q='quick'))
+
+name = 'Vikas'
+print(f'Hello, his name is {name}')
